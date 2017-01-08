@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_logined"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context="dev.linhnv.loginregister1.LoginedActivity">
+    <Button
+        android:id="@+id/btn_viewAllProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View All Products"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/btn_AddNewProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add New Product"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/tv_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="email"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"/>
+</LinearLayout>
