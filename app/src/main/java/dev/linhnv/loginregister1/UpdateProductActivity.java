@@ -42,9 +42,8 @@ public class UpdateProductActivity extends AppCompatActivity implements View.OnC
 
         list_product = new ArrayList<Product>();
         id = getIntent().getExtras().getString("id");
-        //Toast.makeText(this, ""+id, Toast.LENGTH_SHORT).show();
-        new LoadProductById().execute(id);
 
+        new LoadProductById().execute(id);
     }
 
     @Override
